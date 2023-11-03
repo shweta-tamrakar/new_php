@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body {
+  height: 100%;
+  width: 100%;
+  background-color:lightblue;
+}
+
+.wrapper {
+  width:800px;
+  height:1500px;
+  padding:15px;
+  margin:0px auto;
+}
+
+#dynamic {
+  width:500px;
+  border:dashed white;
+  border-radius:10%;
+  padding:3em;
+  font-family:helvetica, arial;
+  font-weight:bold;
+  font-size:1.5em;
+  font-height:1.5em;
+  margin:0px auto;
+}
+
+.newClass {
+  border:none;
+  background-color:orange;
+}
+    </style>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="dynamic">
+          This allows you to add and/or remove classes after the user has scrolled down a certain amount in a page. <br><br><br><br><br><br><br><br><br>In this case, fill background with orange after scrolling 50px down.
+        </div>
+      </div>
+      <script>
+$(window).scroll(function(){
+    if ($(this).scrollTop() > 50) {
+       $('#dynamic').addClass('newClass');
+    } else {
+       $('#dynamic').removeClass('newClass');
+    }
+});
+      </script>
+</body>
+</html>

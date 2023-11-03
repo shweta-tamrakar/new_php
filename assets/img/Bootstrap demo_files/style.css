@@ -1,0 +1,167 @@
+body{
+    height: 9000px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+  
+}
+   
+
+.sec_a{
+    
+    height: 500px;
+    background: url(../img/bg_sofa3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:4px 4px 4px  gray ;
+}
+
+ .sec_a  h1 {
+    margin-left: 300px;
+    margin-top: 150px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+.sec_a p{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.sec_a .r1{
+    padding: 20px;
+    
+}
+
+.sec_b h4{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sec_b{
+    padding: 40px;
+    text-align: center;
+}
+
+
+/* .sec_c .h5{
+    margin-top: 10px;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+
+.sec_c{
+    padding: 80px;
+    text-align: center;
+    margin-top: -100px;
+    
+}
+
+
+
+.sec_c .c1 {
+    background: url(../img/chair_bg1.jpg);
+    height: 243px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+
+.sec_c .c2{
+    background: url(../img/chair_bg2.jpg);
+    height: 243px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.sec_c .c3{
+    background: url(../img/chair_bg3.jpg);
+    height: 243px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+   
+}
+
+.sec_c .c4{
+    background: url(../img/chair_bg4.jpeg);
+    height: 243px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+    
+}
+
+.sec_d .h5{
+    margin-top: 10px;
+    color: gray;
+    font-weight: 600;
+}
+
+.sec_d{
+    padding: 80px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+
+.sec_d .c1{
+    background: url(../img/chair_bg1.jpg);
+    height: 243px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+
+.sec_d .c2{
+    background: url(../img/chair_bg2.jpg);
+    height: 243px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.sec_d .c3{
+    background: url(../img/chair_bg3.jpg);
+    height: 243px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+   
+}
+
+.sec_d .c4{
+    background: url(../img/chair_bg4.jpeg);
+    height: 243px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
